@@ -36,10 +36,6 @@ jobs:
         directory: "dist"
         filename: "${{ github.event.repository.name }}-${{ github.ref_name }}-node-v${{ matrix.node-version }}.zip"
         
-    - name: Build
-      run: |
-        ls -R
-        
     - name: Release prebuilt
       uses: ncipollo/release-action@v1
       with:
