@@ -43,6 +43,6 @@ jobs:
     - name: Release prebuilt
       uses: ncipollo/release-action@v1
       with:
-        artifacts: dist/${{ github.event.repository.name }}-${{ github.ref_name }}-node-v${{ matrix.node-version }}.zip"
+        artifacts: "dist/${{ github.event.repository.name }}-${{ github.ref_name }}-node-v${{ matrix.node-version }}.zip"
         allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
