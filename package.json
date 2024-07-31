@@ -1,5 +1,5 @@
 {
-  "name": "hubs-duck-addon",
+  "name": "polyuworld-addon-template",
   "version": "1.0.0",
   "description": "Duckify your Hubs with this add-on",
   "scripts": {
@@ -11,11 +11,11 @@
     "hubs",
     "addon"
   ],
-  "author": "Manuel Martin",
+  "author": "Alex Chan",
   "owners": [
     {
-      "name": "Manuel Martin",
-      "githubUsername": "keianhzo"
+      "name": "Alex Chan",
+      "githubUsername": "dirkarnez"
     }
   ],
   "license": "MPL-2.0",
