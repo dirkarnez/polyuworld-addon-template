@@ -92,8 +92,8 @@ function onReady(app: App) {
 
 let sounds = new Map<string, number>();
 
-registerAddon("hubs-duck-addon", {
-  name: "Hubs Duck Add-on",
+registerAddon("polyuworld-addon-template", {
+  name: "polyuworld addon template (Hubs Duck)",
   description: `Spawns a duck when the "duck" chat command is invoked. It quacks.`,
   onReady: onReady,
   system: { system: quackSystem, order: SystemOrderE.PostPhysics },
