@@ -28,6 +28,10 @@ jobs:
       run: |
         npm install
         npm run-script build
+
+    - uses: JS-DevTools/npm-publish@v3
+      with:
+        token: ${{ secrets.NPM_TOKEN }}
         
     - name: Archive Release
       uses: thedoctor0/zip-release@master
